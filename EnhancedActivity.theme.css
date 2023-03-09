@@ -5,9 +5,9 @@
  * @authorId 291872132898619392
  * @donate https://www.buymeacoffee.com/Fadexz
  * @description Makes the activity area larger including a larger and rounded image and allows two lines for each text to fit more of the status on-screen and more
- * @source https://github.com/Fadexz/EnhancedActivity
  * @website https://www.discord.gg/users/291872132898619392
- * @updateUrl https://github.com/Fadexz/EnhancedActivity/EnhancedActivity.theme.css
+ * @source https://github.com/Fadexz/EnhancedActivity
+ * @updateUrl https://github.com/Fadexz/EnhancedActivity/blob/main/EnhancedActivity.theme.css
 */
 
 /* Rounded Activity Cover Art + Larger Activity Cover Art */
@@ -17,6 +17,7 @@
     height: 106px;
 }
 
+/* Large Image Rounded Border */
 .assetsLargeImage-8U5dlz {
     border-radius: 3px;
 }
