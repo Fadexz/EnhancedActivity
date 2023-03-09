@@ -1,0 +1,78 @@
+/**
+ * @name EnhancedActivity
+ * @author Fadexz
+ * @version 1.0.0
+ * @authorId 291872132898619392
+ * @donate https://www.buymeacoffee.com/Fadexz
+ * @description Makes the activity area larger including a larger and rounded image and allows two lines for each text to fit more of the status on-screen and more
+ * @source https://github.com/Fadexz/EnhancedActivity
+ * @website https://www.discord.gg/users/291872132898619392
+ * @updateUrl https://github.com/Fadexz/EnhancedActivity/EnhancedActivity.theme.css
+*/
+
+/* Rounded Activity Cover Art + Larger Activity Cover Art */
+.assetsLargeImageUserPopoutV2-9ksyvz {
+    border-radius: 4px;
+    width: 106px;
+    height: 106px;
+}
+
+.assetsLargeImage-8U5dlz {
+    border-radius: 3px;
+}
+
+/* Profile Large Image Size */
+.assetsLargeImageProfileV2-2nujZI {
+    width: 142px !important;
+    height: 142px !important;
+}
+
+/* Popout Small Image Size */
+.assetsSmallImageUserPopoutV2-1goF56,
+.assetsSmallImage-2JNB1y {
+    width: 28px;
+    height: 28px;
+}
+
+/* Profile Small Image Size */
+.assetsSmallImageProfileV2-q0ptvV {
+    width: 38px !important;
+    height: 38px !important;
+}
+
+/* Use Multiple Lines For Status Text */
+.ellipsis-23LXbI {
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Center-align Large Image */
+.assets-3PQvAh {
+    align-self: center;
+}
+
+/* Fix Mask For Small Image Position */
+.assetsLargeMaskUserPopoutV2-2oZjbP,
+.assetsLargeMaskProfileV2-23iq8Y {
+    mask-size: cover;
+    -webkit-mask-size: cover;
+}
+
+/* Transition Seekbar Seeking + Round Border */
+.barInner-3dHef4 {
+    transition: width 50ms;
+    border-radius: 10px !important;
+}
+
+/* Taller Seekbar */
+.barInMultiLine-WXdxfg {
+	height: 5px;
+}
+
+/* Higher Contrast On Seekbar */
+.bar-1GpknY {
+    background-color: hsla(217,calc(var(--saturation-factor, 1)*7.6%),2%,.18);
+}
