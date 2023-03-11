@@ -68,11 +68,6 @@
     border-radius: 10px !important;
 }
 
-/* Taller Seekbar */
-.barInMultiLine-WXdxfg {
-	height: 5px;
-}
-
 /* Higher Contrast On Seekbar */
 .bar-1GpknY {
     background-color: hsla(217,calc(var(--saturation-factor, 1)*7.6%),2%,.18);
