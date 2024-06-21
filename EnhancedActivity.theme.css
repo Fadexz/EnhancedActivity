@@ -1,7 +1,7 @@
 /**
  * @name EnhancedActivity
  * @author Fadexz
- * @version 1.0.3
+ * @version 1.0.4
  * @authorId 291872132898619392
  * @donate https://www.buymeacoffee.com/Fadexz
  * @description Makes the activity area larger including a larger and rounded image and allows two lines for each text to fit more of the status on-screen and more
@@ -11,49 +11,49 @@
 */
 
 /* Rounded Activity Cover Art + Larger Activity Cover Art */
-.assetsLargeImageUserPopoutV2_ec599c {
+.assetsLargeImageUserPopoutV2_d5089b {
     border-radius: 5px;
     width: 108px;
     height: 108px;
 }
 
-.assetsLargeImage__57902 {
+.assetsLargeImage_d5089b {
     border-radius: 5px;
 }
 
 /* Profile Large Image Size */
-.assetsLargeImageProfileV2__0f48c {
+.assetsLargeImageProfileV2_d5089b {
     width: 142px !important;
     height: 142px !important;
 }
 
 /* Popout Small Image Size */
-.assetsSmallImageUserPopoutV2__3894e,
-.assetsSmallImage__4c2f1 {
+.assetsSmallImageUserPopoutV2_d5089b,
+.assetsSmallImage_d5089b {
     width: 28px;
     height: 28px;
 }
 
 /* Profile Small Image Size */
-.assetsSmallImageProfileV2__48f59 {
+.assetsSmallImageProfileV2_d5089b {
     width: 38px !important;
     height: 38px !important;
 }
 
 /* Fix Mask For Small Image Position */
-.assetsLargeMaskUserPopoutV2_e54933,
-.assetsLargeMaskProfileV2__4c908 {
+.assetsLargeMaskUserPopoutV2_d5089b,
+.assetsLargeMaskProfileV2_d5089b {
     mask-size: cover;
     -webkit-mask-size: cover;
 }
 
 /* Fix Centring */
-.activityDetails_b90109 {
+.activityDetails_d5089b {
     display: contents;
 }
 
 /* Use Multiple Lines For Status Text */
-.ellipsis__46552 {
+.ellipsis_d5089b {
     white-space: normal;
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -63,23 +63,23 @@
 }
 
 /* Center-align Large Image */
-.assets__5bee0 {
+.assets_d5089b {
     align-self: center;
 }
 
 /* Transition Seekbar Seeking + Round Border */
-.barInner__0f713 {
+.barInner_aa267a {
     transition: width 50ms;
     /*border-radius: 10px !important;*/
 }
 
 /* Higher Contrast On Seekbar */
-.bar_e63719 {
+.bar_aa267a {
     background-color: hsla(217,calc(var(--saturation-factor, 1)*7.6%),2%,.3);
 }
 
 /* Remove Disabled Spotify Listen Buttons (i.e own profile) */
-.disabledButtonWrapper_b04230 {
+.disabledButtonWrapper_dd4f85 {
     display: none;
 }
 /*actionsUserPopoutV2__46596*/
