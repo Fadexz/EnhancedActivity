@@ -1,7 +1,7 @@
 /**
  * @name EnhancedActivity
  * @author Fadexz
- * @version 1.0.4
+ * @version 1.0.5
  * @authorId 291872132898619392
  * @donate https://www.buymeacoffee.com/Fadexz
  * @description Makes the activity area larger including a larger and rounded image and allows two lines for each text to fit more of the status on-screen and more
@@ -11,10 +11,10 @@
 */
 
 /* Rounded Activity Cover Art + Larger Activity Cover Art */
-.assetsLargeImageUserPopoutV2_d5089b {
+.assetsLargeImageBiteSizePopout_d5089b {
     border-radius: 5px;
-    width: 108px;
-    height: 108px;
+    width: 100px;
+    height: 100px;
 }
 
 .assetsLargeImage_d5089b {
@@ -22,27 +22,27 @@
 }
 
 /* Profile Large Image Size */
-.assetsLargeImageProfileV2_d5089b {
-    width: 142px !important;
-    height: 142px !important;
+.assetsLargeImageSimplifiedProfile_d5089b {
+    width: 124px !important;
+    height: 124px !important;
 }
 
 /* Popout Small Image Size */
-.assetsSmallImageUserPopoutV2_d5089b,
+.assetsSmallImageBiteSizePopoutWithoutLargeImage_d5089b,
 .assetsSmallImage_d5089b {
     width: 28px;
     height: 28px;
 }
 
 /* Profile Small Image Size */
-.assetsSmallImageProfileV2_d5089b {
+.assetsSmallImageSimplifiedProfile_d5089b {
     width: 38px !important;
     height: 38px !important;
 }
 
 /* Fix Mask For Small Image Position */
-.assetsLargeMaskUserPopoutV2_d5089b,
-.assetsLargeMaskProfileV2_d5089b {
+.assetsLargeMaskBiteSizePopout_d5089b,
+.assetsLargeMaskSimplifiedProfile_d5089b {
     mask-size: cover;
     -webkit-mask-size: cover;
 }
@@ -86,3 +86,4 @@
 .actionsProfileV2-2xJe2L {
     margin-left: 0px;
 }
+
